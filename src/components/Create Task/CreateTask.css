@@ -1,0 +1,62 @@
+.submit {
+    width: 100px;
+    background-color: beige;
+    border: none;
+    border-radius: 2%;
+}
+
+.CreateUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newuser {
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CreateUser input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+.CreateUser label {
+    font-size: 1.2rem;
+}
+
+.submit {
+    margin-top: 2vh;
+    background-color: rgb(178, 228, 181);
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 0 10px red;
+}
+
+.task_name {
+    width: 80vw;
+    height: 5vh;
+    font-size: 1.2rem;
+}
+
+.task_discription {
+    width: 80vw;
+    height: 15vh;
+    padding-bottom: 1vh;
+    font-size: 1.2rem;
+}
+
+.newuser h3 {
+    text-align: start;
+}
+.dropdown{
+    padding: 0px;
+}
+.dropdown-select{
+    margin: 10px;
+    font-size: 16px;
+}
